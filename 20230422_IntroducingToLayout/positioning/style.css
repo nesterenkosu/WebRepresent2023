@@ -1,0 +1,38 @@
+#div_one {
+	background-color: red;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	
+	top: 20px; /*x*/
+	left: 100px; /*y*/
+	
+	z-index: 1; /*Позиция слоя при перекрытии слоёв*/
+}
+
+#div_two {
+	background-color: blue;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	
+	top: 104px; /*Координата x*/
+    left: 176px; /*Координата y*/
+	
+	/*opacity: 50%; Прозрачность*/
+	
+	z-index: 2;
+}
+#div_three {
+	background-color: green;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	
+	top: 84px; /*Координата x*/
+    left: 136px; /*Координата y*/
+	
+	/*opacity: 50%; Прозрачность*/
+	
+	z-index: 2;
+}

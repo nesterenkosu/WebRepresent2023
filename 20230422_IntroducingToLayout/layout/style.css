@@ -1,0 +1,35 @@
+#sidebar {
+	background-color: blue;
+	float: left;
+	width: 200px;
+	padding: 12px;
+}
+
+#content {
+	background-color: green;
+	margin-left: 224px;
+	padding: 22px;
+	text-align:justify;
+	text-indent: 20px;
+}
+
+#header,#footer {
+	background-color: #AA77CC;
+}
+
+#header {
+	padding: 7px;
+}
+
+#footer {
+	text-align: center;
+}
+
+#main {
+	background-color: blue;
+}
+
+#container {
+	width: 600px;
+	margin: 0 auto; /* Выравнивание по центру */
+}
