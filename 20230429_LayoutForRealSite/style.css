@@ -1,0 +1,54 @@
+div#container {
+	width: 1633px;
+	margin: 50px auto; /*Выравнивание макета по центру окна браузера*/
+	padding: 15px;
+}
+
+div#toppanel {
+	background-color: #f6f6f6;
+	overflow-y: hidden; /*Предотвращение "схлапывания" div'a при наличии вложенных div'ов*/
+	height: 160px;
+	
+}
+
+div#logo {
+	float: left;
+	margin-top: 22px;
+	margin-left: 119px;
+}
+
+div#menu {
+	float: right;
+	margin-top: 46px;
+}
+
+div#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#menu li {
+	float: left;
+	margin-right: 61px;
+}
+
+div#menu li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+	font-family: Arial;
+	display: block;
+	padding: 27px 10px;
+}
+
+div#menu li a:hover{
+	background-color: #ffea00;
+	
+}
+
+div#banner {
+	background: url('images/banner.png');
+	height:150px;
+	width: 1633px;;
+}
