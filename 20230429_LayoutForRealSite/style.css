@@ -1,7 +1,12 @@
+body {
+	font-family: 'Century Gothic';
+}
+
 div#container {
 	width: 1633px;
 	margin: 50px auto; /*Выравнивание макета по центру окна браузера*/
-	padding: 15px;
+	background-color:#f6f6f6;
+	overflow-y: hidden;
 }
 
 div#toppanel {
@@ -51,4 +56,254 @@ div#banner {
 	background: url('images/banner.png');
 	height:150px;
 	width: 1633px;;
+}
+
+div#main {
+	margin-top: 78px;	
+}
+
+div#content {	
+	float: left;
+	width: 1130px;
+	padding-right: 30px;
+	
+}
+
+/*CONTENT*/
+div#content h1{
+	color: #ffea00;
+	text-transform: uppercase;
+	font-size: 18pt;
+	padding: 9px 18px;
+	background-color: #424147;
+	float: left;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 30px 0;
+}
+
+div#project_description p{
+	clear: both;
+	font-size: 15px;
+}
+
+div#sidebar {	
+	margin-left: 1160px;
+}
+
+div#recent_projects ul {
+	list-style: none;
+	padding: 0px;
+}
+
+div#recent_projects li {
+	float: left;
+	margin-right: 15px;
+}
+
+div#recent_projects li:last-child {
+	float: left;
+	margin-right: 0;
+}
+
+/*SIDEBAR*/
+div.sideblock {
+	background-color: #424147;
+	margin-bottom: 30px;
+	padding: 35px;
+	font-family: 'Century Gothic';
+}
+
+div.sideblock h1 {
+	color: #ffea00;
+	
+	font-size: 20px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 0px;
+	margin-bottom: 35px;
+}
+
+/*Project Details*/
+div.sideblock#project_details ul {
+	list-style-image: url("images/custom_list_icon.png");
+	margin: 0;	
+}
+
+div.sideblock#project_details li {
+	margin-bottom: 15px;
+}
+
+div.sideblock#project_details li:last-child {
+	margin-bottom: 0;
+}
+
+div.sideblock#project_details a {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	position: relative;
+    top: -10px;
+    left: 15px;
+	font-size: 16px;
+}
+
+/*Popular Posts*/
+div.sideblock#popular_posts ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.sideblock#popular_posts li{
+	overflow-y: hidden;
+	margin-bottom: 25px;
+}
+
+div.sideblock#popular_posts li:last-child{
+	margin-bottom: 0px;
+}
+
+div.prev_img {
+	float: left;
+}
+
+div.prev_text {
+	margin-left: 110px;
+}
+
+div.prev_text h2{
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	line-height: 0.7;
+	min-height: 55px;
+	position: relative;
+	top: -5px;
+}
+
+div.prev_text a{
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+div.prev_text div {
+	color: #ffea00;
+	text-align: right;
+}
+
+/*Tags*/
+div#tags {
+	overflow-y: hidden;
+}
+
+div#tags ul {
+	list-style: none;
+	padding: 0;
+}
+
+div#tags li {
+	background-color: #ffea00;
+	float: left;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	padding: 6px 9px;
+}
+
+div#tags a {
+	color: #424147;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;	
+}
+
+div#project_description, div#recent_projects {
+	padding-left: 40px;
+}
+
+/*Footer*/
+
+div#footer {
+	background-color: #414146;
+	overflow-y: hidden;
+	padding: 30px 119px;
+	color: white;
+}
+
+div#footer h1 {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+div#col1,div#col2,div#col3 {
+	float: left;
+	width: 441px;
+	padding-left: 24px;
+}
+
+div#col1 {
+	/*background-color: red;*/
+}
+
+div#col2 {
+	/*background-color: green;*/
+}
+
+div#col3 {
+	/*background-color: blue;*/
+}
+
+a.footer_button {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 13px 17px;
+	border-bottom-style: solid;
+	border-bottom-color: #eeda00;
+	border-bottom-width: 2px;
+	
+	display: block;
+    float: left;
+}
+
+ul#footer_gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#footer_gallery li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	line-height: 0;
+}
+
+ul#latest_tweets {
+	list-style-image: url('images/bird_icon.png');
+}
+
+ul#latest_tweets li{
+	font-size: 13px;
+}
+
+ul#latest_tweets li div {
+	position: relative;
+	top: -15px;
+}
+
+ul#latest_tweets span {
+	color: #ffea00;	
+}
+
+ul#latest_tweets a {
+	color: white;
+}
+
+span.date {
+	font-size: 8px;
+	color: #ffea00;
 }
